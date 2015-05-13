@@ -1,0 +1,26 @@
+{
+    "a": {
+        "title": "This one is out of order",
+        "slug": "Should've gone last",
+        "date": "3-30-2015",
+        "text": "OMG wow."
+    },
+    "b": {
+        "title": "This is my first post",
+        "slug": "What are firts posts for?",
+        "date": "3-30-2015",
+        "text": "It was the best of times, it was the worst of times."
+    },
+    "c": {
+        "title": "This is my second blog post",
+        "slug": "You misspelled first",
+        "date": "3-30-2015",
+        "text": "Learn how to type dummy"
+    },
+    "f": {
+        "title": "This is some kind of title",
+        "date": "4/06/2015",
+        "slug": "This is some kind of slug",
+        "text": "This should save to the JSON file."
+    }
+}

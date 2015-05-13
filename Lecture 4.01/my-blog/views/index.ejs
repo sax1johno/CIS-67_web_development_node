@@ -1,0 +1,19 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>Welcome to my blog</h1>
+        <% var keys = Object.keys(entries).reverse();
+           keys.forEach(function(key) { 
+            var entry = entries[key];
+        %>
+        <div>
+        <h2><%= entry.title %></h2>
+        <h3><%= entry.slug %></h3>
+        <h6><%= entry.date %></h6>
+        <p><%= entry.text %></p>
+        <% }) %>
+        </div>
+    </body>
+</html>

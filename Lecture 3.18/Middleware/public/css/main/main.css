@@ -1,0 +1,15 @@
+body {
+    font-size: 14px;
+    background: white;
+}
+
+h1 {
+    font-weight: 500;
+    color: #fd1257;
+}
+
+p {
+    font-weight: 800;
+    color: #3b5998;
+    text-decoration: underline;
+}

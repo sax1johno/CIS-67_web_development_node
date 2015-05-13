@@ -1,0 +1,14 @@
+{
+  "name": "johnwoconnor-calculator",
+  "version": "0.0.1",
+  "description": "This is a really super awesome calculator module",
+  "main": "calc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "John O'Connor",
+  "license": "MIT"
+}

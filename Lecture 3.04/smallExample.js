@@ -1,0 +1,1 @@
+window.confirm("This is in smallExample.js");

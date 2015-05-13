@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <form method="get" action="/">
+            <p>
+                <label for="name">Name</label>
+                <input name="name" type="text" />                
+            </p>
+            <p>
+                <label for="age">Age</label>
+                <input name="age" type="text" />
+            </p>
+            <p>
+                <label for="token">Token</label>
+                <input name="token" type="text" />
+            </p>
+            <p>
+                <label for="iq">IQ</label>
+                <input name="iq" type="text" />
+            </p>
+            <p>
+                <input type="hidden" name="price" value="99" />
+                <input type="submit" />
+            </p>
+        </form>
+        <h1>Hello, <%= myName %>!</h1>
+        <h2>My age is <%= myAge %></h2>
+        <h2>My token is <%= myToken %></h2>
+        <h2>My IQ is <%= myIq %></h2>
+        <h2>Price = <%= myPrice %></h2>
+    </body>
+</html>

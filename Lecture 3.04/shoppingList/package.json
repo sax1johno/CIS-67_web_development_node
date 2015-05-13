@@ -1,0 +1,11 @@
+{
+  "name": "sax1johno-test-shoppinglist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>Create a new blog entry</h1>
+        <form method="post" action="/admin/entries/create">
+            <p>
+                <label for="id">ID:</label>
+                <input type="text" name="id" />
+            </p>
+            <p>
+                <label for="title">Title: </label>
+                <input type="text" name="title" />
+            </p>
+            <p>
+                <label for="slug">Slug: </label>
+                <input type="text" name="slug" />
+            </p>
+            <p>
+                <label for="date">date: </label>
+                <input type="text" name="date" />
+            </p>
+            <p>
+                <label for="text">text: </label>
+                <textarea name="text"></textarea>
+            </p>
+            <input type="submit" />
+            <input type="reset" />
+        </form>
+    </body>
+</html>

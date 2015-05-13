@@ -1,0 +1,16 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>Welcome to my blog</h1>
+        <% posts.forEach(function(post) { %>
+        <div>
+        <h2><%= post.title %></h2>
+        <h3><%= post.slug %></h3>
+        <h6><%= post.date %></h6>
+        <p><%= post.text %></p>
+        <% }) %>
+        </div>
+    </body>
+</html>

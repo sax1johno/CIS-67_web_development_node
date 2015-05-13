@@ -1,0 +1,20 @@
+{
+    "admin": {
+        "password": "password",
+        "email": "johnwoconnor@gmail.com",
+        "username": "admin",
+        "firstName": "John",
+        "lastName": "Smith",
+        "birthday": "01/01/1970",
+        "ccnumber": "1234-5678-9012-3456"
+    },
+    "newUser": {
+        "password": "password",
+        "email": "johnwoconnor@gmail.com",
+        "username": "admin",
+        "firstName": "John",
+        "lastName": "Smith",
+        "birthday": "01/01/1970",
+        "ccnumber": "1234-5678-9012-3456"
+    }
+}

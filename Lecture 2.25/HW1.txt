@@ -1,0 +1,17 @@
+HW 1:
+
+1) Create a Cloud9 Account
+2) Create a new workspace
+3) Create a javascript file called "HW1.js"
+4) Copy the following function into HW1.js:
+    /** Homework 1
+     * @author (your name)
+    **/
+    function giveMeAHiFive(newPhrase, newNumber) {
+        console.log("Hi " + newNumber + " Bro!");
+        console.log(newPhrase);
+    }
+    
+    giveMeAHiFive("No, you give me a Hi 5", "four");
+
+5) Print a hardcopy and turn in.  Due monday.

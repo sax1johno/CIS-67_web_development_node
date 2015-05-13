@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+        <form action="/login" method="get">
+            <label for="name">Name</label><input type="text" name="name" /><br />
+            <label for="password">Password</label><input type="password" name="password" />
+            <label for="date">Date</label><input type="date" name="date" />
+            <input type="hidden" name="price" value="99.99" />
+            <input type="submit" />
+        </form>
+        <h2>Name = <%= name %></h2>
+        <h2>Date = <%= date %></h2>
+        <h2>Price = <%= price %></h2>
+    </body>
+</html>
